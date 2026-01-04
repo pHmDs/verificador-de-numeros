@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  height: 100vh;
+}
+h1 {
+  color: rgb(92, 35, 12);
+  font-size: 2.5em;
+}
+
+input {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(92, 35, 12, 0.5);
+  width: 320px;
+  height: 70px;
+    transition: all 0.3s ease-in-out;
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+/* From Uiverse.io by barisdogansutcu */
+/* Com alterações feitas por Leonardo Amaral */
+button {
+  margin-top: 20px;
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: rgb(92, 35, 12);
+  color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: rgb(63, 24, 8);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(63, 24, 8) 0px 7px 29px 0px;
+}
